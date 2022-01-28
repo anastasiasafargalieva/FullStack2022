@@ -1,0 +1,4 @@
+title User creates a new note using the single page app https://studies.cs.helsinki.fi/exampleapp/spa
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/spa/new_note_spa
+server-->browser: Note created, response status 201
